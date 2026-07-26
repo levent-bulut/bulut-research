@@ -157,3 +157,121 @@ footer li{margin:8px 0}
  .hero{padding:48px 20px}
  .section{padding:36px 20px}
 }
+/* ==========================================================
+   RESEARCH INDEX CARDS — append to the end of style.css
+   ========================================================== */
+
+.framework-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 1rem;
+  margin: 0;
+  padding: 0;
+}
+
+.framework-card,
+.research-card {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+  height: 100%;
+  padding: 1.15rem 1.25rem;
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.03);
+  color: inherit;
+  text-decoration: none;
+  transition: border-color 0.18s ease, transform 0.18s ease,
+    background 0.18s ease;
+}
+
+.framework-card:hover,
+.framework-card:focus-visible,
+.research-card:hover,
+.research-card:focus-visible {
+  border-color: rgba(255, 255, 255, 0.35);
+  background: rgba(255, 255, 255, 0.05);
+  transform: translateY(-2px);
+  outline: none;
+}
+
+.framework-card strong,
+.research-card strong {
+  font-size: 1.02rem;
+  line-height: 1.35;
+}
+
+.framework-card .card-alt {
+  font-size: 0.78rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  opacity: 0.55;
+}
+
+.framework-card span,
+.research-card span {
+  font-size: 0.87rem;
+  line-height: 1.6;
+  opacity: 0.75;
+}
+
+.framework-card .card-doi,
+.research-card .card-doi {
+  margin-top: auto;
+  padding-top: 0.6rem;
+  font-size: 0.74rem;
+  letter-spacing: 0.05em;
+  opacity: 0.5;
+}
+
+#research-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 1rem;
+}
+
+.empty-state,
+.search-empty {
+  grid-column: 1 / -1;
+  padding: 1rem 0;
+  font-size: 0.92rem;
+  opacity: 0.7;
+}
+
+.empty-state a {
+  color: inherit;
+  text-decoration: underline;
+}
+
+.framework-preview ul a {
+  color: inherit;
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+  transition: border-color 0.18s ease, opacity 0.18s ease;
+}
+
+.framework-preview ul a:hover,
+.framework-preview ul a:focus-visible {
+  border-bottom-color: currentColor;
+  opacity: 0.85;
+  outline: none;
+}
+
+@media (max-width: 480px) {
+  .framework-grid,
+  #research-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .framework-card,
+  .research-card,
+  .framework-preview ul a {
+    transition: none;
+  }
+  .framework-card:hover,
+  .research-card:hover {
+    transform: none;
+  }
+}
