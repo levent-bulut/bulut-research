@@ -1,10 +1,201 @@
 {
-  "Objective Projection": {
-    "type": "Method",
-    "partOf": "Narrative Engineering",
-    "relatedTo": [
-      "Information Friction",
-      "Narrative Entropy"
-    ]
+  "meta": {
+    "name": "Bulut Doctrine Ontology",
+    "version": "2.0",
+    "updated": "2026-07-26",
+    "author": "Levent Bulut",
+    "orcid": "https://orcid.org/0009-0007-7500-2261",
+    "primarySource": "https://leventbulut.com",
+    "license": "https://creativecommons.org/licenses/by-nc-nd/4.0/"
+  },
+  "concepts": {
+    "The Bulut Doctrine": {
+      "type": "ResearchProgram",
+      "founder": "Levent Bulut",
+      "definition": "A research program modeling narrative as a physical system, encoding emotional states through measurable physical parameters rather than subjective labels.",
+      "contains": ["Narrative Engineering", "Physics of Literature", "News Physics"],
+      "doi": "10.5281/zenodo.18481356",
+      "url": "https://leventbulut.com"
+    },
+    "Narrative Engineering": {
+      "type": "Discipline",
+      "partOf": "The Bulut Doctrine",
+      "definition": "Parametric and structural modeling of narrative systems using measurable physical variables.",
+      "coreMethod": "Objective Projection",
+      "relatedTo": ["Narrative Entropy", "Narrative Gravity", "Narrative Inertia"]
+    },
+    "Objective Projection": {
+      "type": "Method",
+      "partOf": "Narrative Engineering",
+      "alternateName": "Nesnel İzdüşüm",
+      "definition": "A parametric methodology encoding emotional states through six measurable physical variables instead of cortical emotion labels, targeting the pre-cortical thalamo-amygdala pathway.",
+      "variables": ["Luminous Decay", "Thermal Gradient", "Acoustic Impedance", "Kinetic Momentum", "Atmospheric Pressure", "Spatial Geometry"],
+      "verifiedBy": "Objective Projection Calibration Test (OPCT)",
+      "dataset": "Objective Projection Dataset",
+      "relatedTo": ["Universal Biological Interface", "Biophysical Output", "Reader Process Layer"],
+      "doi": "10.5281/zenodo.18478353",
+      "url": "https://levent-bulut.github.io/bulut-research/framework/objective-projection/"
+    },
+    "Narrative Entropy": {
+      "type": "Metric",
+      "symbol": "Sn",
+      "partOf": "Narrative Engineering",
+      "alternateName": "Anlatı Entropisi",
+      "definition": "Quantifies structural complexity and disorder within a narrative system, formally compared against Shannon entropy (H).",
+      "scoredDimensions": ["Information Friction", "Causal Branching"],
+      "limitStates": ["Narrative Cold Death", "Narrative Heat Death"],
+      "relatedTo": ["Narrative Gravity", "Objective Projection"],
+      "doi": "10.5281/zenodo.20459351",
+      "url": "https://levent-bulut.github.io/bulut-research/framework/narrative-entropy/"
+    },
+    "Information Friction": {
+      "type": "ScoredDimension",
+      "partOf": "Narrative Entropy",
+      "alternateName": "Bilgi Sürtünmesi",
+      "definition": "The resistance information encounters within a narrative system; one of the two scored dimensions of the Sn Measurement Protocol v1.0.",
+      "relatedTo": ["Causal Branching", "News Physics"],
+      "doi": "10.5281/zenodo.19410663",
+      "url": "https://levent-bulut.github.io/bulut-research/framework/information-friction/"
+    },
+    "Causal Branching": {
+      "type": "ScoredDimension",
+      "partOf": "Narrative Entropy",
+      "definition": "The multiplication of causal pathways within a narrative system; the second scored dimension of the Sn Measurement Protocol v1.0.",
+      "relatedTo": ["Information Friction"],
+      "doi": "10.5281/zenodo.19410663"
+    },
+    "Narrative Gravity": {
+      "type": "Construct",
+      "symbol": "Ng",
+      "partOf": "Narrative Engineering",
+      "alternateName": "Anlatı Kütleçekimi",
+      "definition": "Assigns mathematical mass to narrative elements in high-entropy systems; a deterministic break from the MacGuffin, later revised under probabilistic convergence.",
+      "formalizedBy": "The Ng Operator",
+      "introduces": "Vacuum Variable",
+      "relatedTo": ["Narrative Entropy", "Narrative Inertia"],
+      "doi": "10.5281/zenodo.18908324",
+      "url": "https://levent-bulut.github.io/bulut-research/framework/narrative-gravity/"
+    },
+    "Narrative Inertia": {
+      "type": "Construct",
+      "partOf": "Narrative Engineering",
+      "alternateName": "Anlatı Ataleti",
+      "definition": "The persistence of established narrative trajectories over time; the temporal dimension of the doctrine.",
+      "quantifiedBy": "Narrative Momentum",
+      "operatesThrough": ["Narrative Memory Evolution", "Narrative Ecosystem Dynamics"],
+      "limitCondition": "The Habituation Problem",
+      "relatedTo": ["Narrative Gravity", "Narrative Entropy"],
+      "doi": "10.5281/zenodo.19458013",
+      "url": "https://levent-bulut.github.io/bulut-research/framework/narrative-inertia/"
+    },
+    "Summarization Bias": {
+      "type": "Construct",
+      "partOf": "The Bulut Doctrine",
+      "alternateName": "Özetleme Yanlılığı",
+      "definition": "Systematic distortions introduced when machine systems, including LLMs, compress narrative and journalistic material into summaries, deleting the physical matrix and substituting emotion labels.",
+      "mechanisms": ["Matrix Deletion", "Label Substitution", "Entropy Flattening"],
+      "relatedTo": ["Biophysical Output", "News Physics", "Objective Projection"],
+      "doi": "10.5281/zenodo.20090216",
+      "url": "https://levent-bulut.github.io/bulut-research/framework/summarization-bias/"
+    },
+    "Universal Biological Interface": {
+      "type": "Framework",
+      "symbol": "UBI",
+      "partOf": "The Bulut Doctrine",
+      "definition": "A post-digital protocol treating the reader's autonomic system as a universal interface for physical narrative parameters.",
+      "defendedBy": "Two-Pathway Architecture",
+      "doi": "10.5281/zenodo.18907915"
+    },
+    "Two-Pathway Architecture": {
+      "type": "Framework",
+      "partOf": "Universal Biological Interface",
+      "definition": "Explains why cultural variation does not falsify the UBI: the fast thalamo-amygdala pathway responds to physical parameters, while the slow cortical pathway carries cultural interpretation.",
+      "doi": "10.5281/zenodo.19225203"
+    },
+    "Objective Projection Calibration Test": {
+      "type": "VerificationProtocol",
+      "symbol": "OPCT",
+      "partOf": "Objective Projection",
+      "definition": "A neurobiological and methodological framework for empirical verification of physics-based narrative construction; v2.0 tests biophysical output convergence across multiple authors.",
+      "versions": ["v1.0", "v2.0"],
+      "doi": "10.5281/zenodo.19073747"
+    },
+    "News Physics": {
+      "type": "ResearchLine",
+      "partOf": "The Bulut Doctrine",
+      "definition": "A physical model of journalism practice, with a founding manifesto and case-analysis scoring rubric.",
+      "applies": ["Information Friction", "Summarization Bias"],
+      "doi": "10.5281/zenodo.19545072"
+    },
+    "Physics of Literature": {
+      "type": "ResearchLine",
+      "partOf": "The Bulut Doctrine",
+      "alternateName": "Edebiyatın Fiziği",
+      "definition": "Applies physical variables to literary systems through case studies from Werther to The Stranger and Pulp Fiction.",
+      "doi": "10.5281/zenodo.18715305"
+    },
+    "Biophysical Output": {
+      "type": "Concept",
+      "partOf": "Objective Projection",
+      "definition": "The measurable autonomic response produced by a physical matrix, as distinct from a cortical emotion label.",
+      "contrastsWith": "Emotional Label",
+      "doi": "10.5281/zenodo.19225484"
+    },
+    "Narrative Momentum": {
+      "type": "Construct",
+      "symbol": "Nm",
+      "partOf": "Narrative Inertia",
+      "definition": "The temporal dimension of Objective Projection: the quantity a narrative trajectory carries forward from scene to scene.",
+      "doi": "10.5281/zenodo.19458013"
+    },
+    "Narrative Memory Evolution": {
+      "type": "Construct",
+      "symbol": "NME",
+      "partOf": "Reader Process Layer",
+      "definition": "How physical matrices persist, decay, and transform in reader memory after exposure.",
+      "doi": "10.5281/zenodo.19462043"
+    },
+    "Narrative Ecosystem Dynamics": {
+      "type": "Construct",
+      "symbol": "NED",
+      "partOf": "Reader Process Layer",
+      "definition": "The social propagation layer of Objective Projection: how narratives sustain trajectory across populations and platforms.",
+      "doi": "10.5281/zenodo.19461954"
+    },
+    "Reader-State Interaction": {
+      "type": "Construct",
+      "symbol": "RSI",
+      "partOf": "Reader Process Layer",
+      "definition": "When the reader's context modifies the physical matrix and its biophysical output.",
+      "doi": "10.5281/zenodo.19458240"
+    },
+    "Reader Process Layer": {
+      "type": "Framework",
+      "partOf": "Objective Projection",
+      "definition": "Extends Objective Projection beyond biophysical output into memory, context, and social propagation.",
+      "contains": ["Reader-State Interaction", "Narrative Memory Evolution", "Narrative Ecosystem Dynamics"],
+      "doi": "10.5281/zenodo.19457563"
+    },
+    "Vacuum Variable": {
+      "type": "Variable",
+      "partOf": "Narrative Gravity",
+      "definition": "The structural void in a high-entropy system toward which narrative mass migrates.",
+      "doi": "10.5281/zenodo.18908324"
+    },
+    "The Ng Operator": {
+      "type": "Formalization",
+      "partOf": "Narrative Gravity",
+      "definition": "The mathematical formalization and operational definition of Narrative Gravity.",
+      "doi": "10.5281/zenodo.19275490"
+    },
+    "Objective Projection Dataset": {
+      "type": "Dataset",
+      "partOf": "Objective Projection",
+      "definition": "500 annotated narrative scenes labelled for the six golden rules, with a bilingual detection pipeline and hard negatives.",
+      "records": 500,
+      "languages": ["tr", "en"],
+      "doi": "10.57967/hf/8960",
+      "url": "https://huggingface.co/datasets/leventbulut/objective-projection"
+    }
   }
 }
