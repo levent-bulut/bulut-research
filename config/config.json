@@ -1,0 +1,22 @@
+{
+  "site": {
+    "name": "Levent Bulut Research",
+    "shortName": "LB Research",
+    "description": "Open research platform for Narrative Engineering, Objective Projection, computational narratology, datasets, and theoretical frameworks.",
+    "url": "https://levent-bulut.github.io/bulut-research/",
+    "canonical": "https://leventbulut.com",
+    "language": "en",
+    "defaultTheme": "dark"
+  },
+  "author": {
+    "name": "Levent Bulut",
+    "website": "https://leventbulut.com",
+    "about": "https://leventbulut.com/about/",
+    "corpus": "https://leventbulut.com/corpus/",
+    "github": "https://github.com/levent-bulut",
+    "repository": "https://github.com/levent-bulut/bulut-research"
+  },
+  "social": {
+    "github": "https://github.com/levent-bulut"
+  }
+}
