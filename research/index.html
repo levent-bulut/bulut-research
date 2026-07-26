@@ -10,7 +10,7 @@
 <link rel="canonical" href="https://levent-bulut.github.io/bulut-research/research/">
 <link rel="alternate" type="application/json" href="https://levent-bulut.github.io/bulut-research/research-index.json" title="Research Index (JSON)">
 <link rel="manifest" href="../manifest.webmanifest">
-<link rel="icon" href="../icons/favicon.svg" type="image/svg+xml">
+<link rel="icon" href="../favicon.ico">
 <link rel="stylesheet" href="../style.css">
 
 <meta name="DC.Title" content="Research Programs | Levent Bulut Research">
@@ -26,13 +26,13 @@
 <meta property="og:title" content="Research Programs | Levent Bulut Research">
 <meta property="og:description" content="Objective Projection, the Bulut Doctrine, Narrative Entropy (Sn), Narrative Gravity (Ng), Narrative Inertia, Information Friction, Summarization Bias, and News Physics.">
 <meta property="og:url" content="https://levent-bulut.github.io/bulut-research/research/">
-<meta property="og:image" content="https://levent-bulut.github.io/bulut-research/images/og-cover.png">
+<meta property="og:image" content="https://levent-bulut.github.io/bulut-research/assets/social-preview.png">
 <meta property="og:locale" content="en_US">
 
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="Research Programs | Levent Bulut Research">
 <meta name="twitter:description" content="Objective Projection, the Bulut Doctrine, narrative dynamics, and News Physics — the open research index of Levent Bulut.">
-<meta name="twitter:image" content="https://levent-bulut.github.io/bulut-research/images/og-cover.png">
+<meta name="twitter:image" content="https://levent-bulut.github.io/bulut-research/assets/social-preview.png">
 
 <script type="application/ld+json">
 {
@@ -87,7 +87,7 @@
       "description": "A research program developed by Levent Bulut that models narrative as a physical system, encoding emotional states through six measurable physical parameters (Luminous Decay, Thermal Gradient, Acoustic Impedance, Kinetic Momentum, Atmospheric Pressure, Spatial Geometry) rather than cortical emotion labels. Core constructs include Narrative Entropy (Sn), Narrative Gravity (Ng), and the Universal Biological Interface (UBI).",
       "founder": { "@id": "https://orcid.org/0009-0007-7500-2261" },
       "url": "https://leventbulut.com",
-      "subjectOf": { "@id": "https://leventbulut.com/corpus/" },
+      "sameAs": ["https://levent-bulut.github.io/bulut-research/"],
       "identifier": [
         { "@type": "PropertyValue", "propertyID": "DOI", "value": "10.57967/hf/8960" },
         { "@type": "PropertyValue", "propertyID": "DOI", "value": "10.5281/zenodo.19511369" }
@@ -123,6 +123,7 @@
         "https://leventbulut.com/about/",
         "https://scholar.google.com/citations?user=2lo1YXcAAAAJ",
         "https://www.researchgate.net/profile/Levent-Bulut-4",
+        "https://www.goodreads.com/author/show/16000691.Levent_Bulut",
         "https://huggingface.co/leventbulut",
         "https://github.com/levent-bulut",
         "https://x.com/LeventBulut",
@@ -142,7 +143,15 @@
 </script>
 
 <style>
-.research-hero{padding:4rem 0 2.5rem}
+.portal-nav{display:flex;flex-wrap:wrap;gap:.5rem;padding:1.6rem 0 0;margin:0;list-style:none}
+.portal-nav li{margin:0}
+.portal-nav a{display:inline-block;padding:.45rem .95rem;border:1px solid rgba(255,255,255,.14);border-radius:999px;font-size:.83rem;text-decoration:none;color:inherit;transition:border-color .18s ease}
+.portal-nav a:hover,.portal-nav a:focus-visible{border-color:rgba(255,255,255,.4)}
+.portal-nav a[aria-current="page"]{border-color:rgba(255,255,255,.45);background:rgba(255,255,255,.06)}
+.fw-breadcrumb{padding:1.6rem 0 0;font-size:.82rem;opacity:.6}
+.fw-breadcrumb a{color:inherit;text-decoration:none}
+.fw-breadcrumb a:hover{text-decoration:underline}
+.research-hero{padding:2rem 0 2.5rem}
 .research-hero .eyebrow{display:block;font-size:.78rem;letter-spacing:.18em;text-transform:uppercase;opacity:.65;margin-bottom:.9rem}
 .research-hero h1{font-size:clamp(1.9rem,4.5vw,2.8rem);line-height:1.15;margin:0 0 1rem}
 .research-hero p.lede{max-width:64ch;font-size:1.05rem;line-height:1.7;opacity:.85;margin:0}
@@ -167,27 +176,29 @@
 .related-links ul{list-style:none;margin:0;padding:0;display:flex;flex-wrap:wrap;gap:.75rem}
 .related-links a{display:inline-block;padding:.55rem 1rem;border:1px solid rgba(255,255,255,.15);border-radius:999px;font-size:.88rem;text-decoration:none;color:inherit;transition:border-color .18s ease}
 .related-links a:hover,.related-links a:focus-visible{border-color:rgba(255,255,255,.4)}
-@media (prefers-reduced-motion:reduce){.framework-card{transition:none}.framework-card:hover{transform:none}}
+@media (prefers-reduced-motion:reduce){.framework-card,.portal-nav a,.related-links a{transition:none}.framework-card:hover{transform:none}}
 </style>
 </head>
 <body>
 
-<header class="site-header">
-  <nav class="site-nav" aria-label="Primary">
-    <a class="brand" href="../">Levent Bulut Research</a>
-    <ul class="nav-links">
-      <li><a href="../">Home</a></li>
-      <li><a href="./" aria-current="page">Research</a></li>
-      <li><a href="../framework/objective-projection/">Frameworks</a></li>
-      <li><a href="https://leventbulut.com/corpus/" rel="noopener">Corpus</a></li>
-      <li><a href="https://leventbulut.com/about/" rel="noopener">About</a></li>
-    </ul>
+<main class="container" style="max-width:960px;margin:0 auto;padding:0 1.25rem">
+
+  <ul class="portal-nav" aria-label="Portal sections">
+    <li><a href="../">Home</a></li>
+    <li><a href="./" aria-current="page">Research</a></li>
+    <li><a href="../publications/">Publications</a></li>
+    <li><a href="../datasets/">Datasets</a></li>
+    <li><a href="../resources/">Resources</a></li>
+    <li><a href="../citation/">Citation</a></li>
+    <li><a href="https://leventbulut.com/corpus/" rel="noopener">Corpus</a></li>
+    <li><a href="https://leventbulut.com/about/" rel="noopener">About</a></li>
+  </ul>
+
+  <nav class="fw-breadcrumb" aria-label="Breadcrumb">
+    <a href="../">Home</a> › <span>Research</span>
   </nav>
-</header>
 
-<main id="main" class="container">
-
-  <section class="research-hero">
+  <header class="research-hero">
     <span class="eyebrow">Research Programs · The Bulut Doctrine</span>
     <h1>Narrative as a physical system: measurable parameters, not emotion labels</h1>
     <p class="lede">This page indexes the research programs of <a href="https://leventbulut.com/about/" rel="noopener">Levent Bulut</a> (ORCID <a href="https://orcid.org/0009-0007-7500-2261" rel="noopener">0009-0007-7500-2261</a>), founder of the Objective Projection methodology and the Bulut Doctrine. The primary source and canonical home of this work is <a href="https://leventbulut.com" rel="noopener">leventbulut.com</a>; this portal is its open, machine-readable research index. A structured version of this index is available as <a href="../research-index.json">research-index.json</a>.</p>
@@ -197,7 +208,7 @@
       <div><span class="num">1</span><span class="lbl">Annotated dataset (500 scenes)</span></div>
       <div><span class="num">2</span><span class="lbl">Languages (EN · TR)</span></div>
     </div>
-  </section>
+  </header>
 
   <section class="program" id="objective-projection-program" aria-labelledby="op-title">
     <h2 id="op-title">Objective Projection &amp; Narrative Engineering</h2>
@@ -268,24 +279,21 @@
   <section class="related-links" aria-labelledby="related-title">
     <h2 id="related-title">Connected resources</h2>
     <ul>
-      <li><a href="https://leventbulut.com/corpus/" rel="noopener">Full DOI Corpus (46 works)</a></li>
+      <li><a href="../publications/">Publications (46 DOI records)</a></li>
+      <li><a href="../datasets/">Datasets</a></li>
+      <li><a href="../resources/">Resources</a></li>
+      <li><a href="../citation/">How to Cite</a></li>
+      <li><a href="https://leventbulut.com/corpus/" rel="noopener">Full DOI Corpus</a></li>
       <li><a href="https://huggingface.co/datasets/leventbulut/objective-projection" rel="noopener">Objective Projection Dataset</a></li>
       <li><a href="https://orcid.org/0009-0007-7500-2261" rel="noopener">ORCID Profile</a></li>
-      <li><a href="https://scholar.google.com/citations?user=2lo1YXcAAAAJ" rel="noopener">Google Scholar</a></li>
       <li><a href="../research-index.json">research-index.json</a></li>
       <li><a href="../knowledge.json">knowledge.json</a></li>
+      <li><a href="../ontology.json">ontology.json</a></li>
       <li><a href="https://github.com/levent-bulut/bulut-research" rel="noopener">Source repository</a></li>
     </ul>
   </section>
 
 </main>
 
-<footer class="site-footer">
-  <div class="container">
-    <p>© 2026 Levent Bulut · <a href="https://leventbulut.com" rel="noopener">leventbulut.com</a> is the primary source of this research. This portal is the open research index of the Bulut Doctrine.</p>
-  </div>
-</footer>
-
-<script src="../script.js" defer></script>
 </body>
 </html>
