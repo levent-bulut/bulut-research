@@ -1,5 +1,15 @@
-Contact: https://leventbulut.com/about/
-Expires: 2027-12-31T23:59:59Z
-Preferred-Languages: en,tr
+# Security contact information for Levent Bulut Research
+# https://levent-bulut.github.io/bulut-research/
+#
+# This is a static, open research portal with no user accounts,
+# no forms, no server-side code and no data collection.
+# Reports concerning content integrity, broken DOI links or
+# repository security are welcome.
+
+Contact: mailto:levent@leventbulut.com
+Contact: https://github.com/levent-bulut/bulut-research/issues
+Expires: 2027-07-26T00:00:00.000Z
+Preferred-Languages: en, tr
 Canonical: https://levent-bulut.github.io/bulut-research/.well-known/security.txt
-Policy: https://github.com/levent-bulut/bulut-research/security
+Policy: https://github.com/levent-bulut/bulut-research/blob/main/README.md
+Acknowledgments: https://levent-bulut.github.io/bulut-research/resources/
