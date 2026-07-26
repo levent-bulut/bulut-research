@@ -1,0 +1,18 @@
+{
+  "nodes": [
+    "Narrative Engineering",
+    "Objective Projection",
+    "Narrative Entropy",
+    "Information Friction"
+  ],
+  "edges": [
+    {
+      "from": "Narrative Engineering",
+      "to": "Objective Projection"
+    },
+    {
+      "from": "Narrative Engineering",
+      "to": "Narrative Entropy"
+    }
+  ]
+}
