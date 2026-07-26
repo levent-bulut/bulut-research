@@ -1,18 +1,67 @@
 {
+  "meta": {
+    "name": "Bulut Doctrine Knowledge Graph",
+    "version": "2.0",
+    "updated": "2026-07-26",
+    "author": "Levent Bulut",
+    "orcid": "https://orcid.org/0009-0007-7500-2261",
+    "primarySource": "https://leventbulut.com",
+    "portal": "https://levent-bulut.github.io/bulut-research/",
+    "license": "https://creativecommons.org/licenses/by-nc-nd/4.0/"
+  },
   "nodes": [
-    "Narrative Engineering",
-    "Objective Projection",
-    "Narrative Entropy",
-    "Information Friction"
+    { "id": "levent-bulut", "label": "Levent Bulut", "type": "Person", "url": "https://leventbulut.com/about/" },
+    { "id": "bulut-doctrine", "label": "The Bulut Doctrine", "type": "ResearchProgram", "url": "https://leventbulut.com" },
+    { "id": "narrative-engineering", "label": "Narrative Engineering", "type": "Discipline", "url": "https://leventbulut.com" },
+    { "id": "physics-of-literature", "label": "Physics of Literature", "type": "ResearchLine", "doi": "10.5281/zenodo.18715305" },
+    { "id": "objective-projection", "label": "Objective Projection", "type": "Method", "url": "https://levent-bulut.github.io/bulut-research/framework/objective-projection/", "doi": "10.5281/zenodo.18478353" },
+    { "id": "narrative-entropy", "label": "Narrative Entropy (Sn)", "type": "Metric", "url": "https://levent-bulut.github.io/bulut-research/framework/narrative-entropy/", "doi": "10.5281/zenodo.20459351" },
+    { "id": "narrative-gravity", "label": "Narrative Gravity (Ng)", "type": "Construct", "url": "https://levent-bulut.github.io/bulut-research/framework/narrative-gravity/", "doi": "10.5281/zenodo.18908324" },
+    { "id": "narrative-inertia", "label": "Narrative Inertia", "type": "Construct", "url": "https://levent-bulut.github.io/bulut-research/framework/narrative-inertia/", "doi": "10.5281/zenodo.19458013" },
+    { "id": "information-friction", "label": "Information Friction", "type": "ScoredDimension", "url": "https://levent-bulut.github.io/bulut-research/framework/information-friction/", "doi": "10.5281/zenodo.19410663" },
+    { "id": "causal-branching", "label": "Causal Branching", "type": "ScoredDimension", "doi": "10.5281/zenodo.19410663" },
+    { "id": "summarization-bias", "label": "Summarization Bias", "type": "Construct", "url": "https://levent-bulut.github.io/bulut-research/framework/summarization-bias/", "doi": "10.5281/zenodo.20090216" },
+    { "id": "ubi", "label": "Universal Biological Interface (UBI)", "type": "Framework", "doi": "10.5281/zenodo.18907915" },
+    { "id": "two-pathway-architecture", "label": "Two-Pathway Architecture", "type": "Framework", "doi": "10.5281/zenodo.19225203" },
+    { "id": "opct", "label": "Objective Projection Calibration Test (OPCT)", "type": "VerificationProtocol", "doi": "10.5281/zenodo.19073747" },
+    { "id": "news-physics", "label": "News Physics", "type": "ResearchLine", "doi": "10.5281/zenodo.19545072" },
+    { "id": "narrative-momentum", "label": "Narrative Momentum (Nm)", "type": "Construct", "doi": "10.5281/zenodo.19458013" },
+    { "id": "nme", "label": "Narrative Memory Evolution (NME)", "type": "Construct", "doi": "10.5281/zenodo.19462043" },
+    { "id": "ned", "label": "Narrative Ecosystem Dynamics (NED)", "type": "Construct", "doi": "10.5281/zenodo.19461954" },
+    { "id": "rsi", "label": "Reader-State Interaction (RSI)", "type": "Construct", "doi": "10.5281/zenodo.19458240" },
+    { "id": "reader-process-layer", "label": "Reader Process Layer", "type": "Framework", "doi": "10.5281/zenodo.19457563" },
+    { "id": "ng-operator", "label": "The Ng Operator", "type": "Formalization", "doi": "10.5281/zenodo.19275490" },
+    { "id": "vacuum-variable", "label": "Vacuum Variable", "type": "Variable", "doi": "10.5281/zenodo.18908324" },
+    { "id": "biophysical-output", "label": "Biophysical Output", "type": "Concept", "doi": "10.5281/zenodo.19225484" },
+    { "id": "op-dataset", "label": "Objective Projection Dataset", "type": "Dataset", "url": "https://huggingface.co/datasets/leventbulut/objective-projection", "doi": "10.57967/hf/8960" }
   ],
   "edges": [
-    {
-      "from": "Narrative Engineering",
-      "to": "Objective Projection"
-    },
-    {
-      "from": "Narrative Engineering",
-      "to": "Narrative Entropy"
-    }
+    { "from": "levent-bulut", "to": "bulut-doctrine", "relation": "founded" },
+    { "from": "bulut-doctrine", "to": "narrative-engineering", "relation": "defines" },
+    { "from": "bulut-doctrine", "to": "physics-of-literature", "relation": "contains" },
+    { "from": "bulut-doctrine", "to": "news-physics", "relation": "contains" },
+    { "from": "narrative-engineering", "to": "objective-projection", "relation": "coreMethod" },
+    { "from": "objective-projection", "to": "biophysical-output", "relation": "produces" },
+    { "from": "objective-projection", "to": "ubi", "relation": "operatesOn" },
+    { "from": "ubi", "to": "two-pathway-architecture", "relation": "defendedBy" },
+    { "from": "objective-projection", "to": "opct", "relation": "verifiedBy" },
+    { "from": "objective-projection", "to": "op-dataset", "relation": "documentedIn" },
+    { "from": "objective-projection", "to": "reader-process-layer", "relation": "extendedBy" },
+    { "from": "reader-process-layer", "to": "rsi", "relation": "contains" },
+    { "from": "reader-process-layer", "to": "nme", "relation": "contains" },
+    { "from": "reader-process-layer", "to": "ned", "relation": "contains" },
+    { "from": "narrative-engineering", "to": "narrative-entropy", "relation": "quantifiedBy" },
+    { "from": "narrative-entropy", "to": "information-friction", "relation": "scoredBy" },
+    { "from": "narrative-entropy", "to": "causal-branching", "relation": "scoredBy" },
+    { "from": "narrative-gravity", "to": "ng-operator", "relation": "formalizedBy" },
+    { "from": "narrative-gravity", "to": "vacuum-variable", "relation": "introduces" },
+    { "from": "narrative-gravity", "to": "narrative-entropy", "relation": "complementaryTo" },
+    { "from": "narrative-inertia", "to": "narrative-momentum", "relation": "quantifiedBy" },
+    { "from": "narrative-inertia", "to": "nme", "relation": "operatesThrough" },
+    { "from": "narrative-inertia", "to": "ned", "relation": "operatesThrough" },
+    { "from": "summarization-bias", "to": "biophysical-output", "relation": "distorts" },
+    { "from": "summarization-bias", "to": "narrative-entropy", "relation": "flattens" },
+    { "from": "news-physics", "to": "information-friction", "relation": "applies" },
+    { "from": "news-physics", "to": "summarization-bias", "relation": "applies" }
   ]
 }
