@@ -1,31 +1,72 @@
 {
-  "framework": "Narrative Engineering",
+  "meta": {
+    "name": "Bulut Doctrine Framework Manifest",
+    "version": "2.0",
+    "updated": "2026-07-26",
+    "framework": "Narrative Engineering",
+    "program": "The Bulut Doctrine — Objective Projection",
+    "author": "Levent Bulut",
+    "orcid": "https://orcid.org/0009-0007-7500-2261",
+    "primarySource": "https://leventbulut.com",
+    "portal": "https://levent-bulut.github.io/bulut-research/",
+    "fullIndex": "https://levent-bulut.github.io/bulut-research/research-index.json",
+    "license": "https://creativecommons.org/licenses/by-nc-nd/4.0/"
+  },
   "modules": [
     {
       "id": "objective-projection",
       "title": "Objective Projection",
+      "alternateName": "Nesnel İzdüşüm",
+      "type": "Method",
+      "page": "https://levent-bulut.github.io/bulut-research/framework/objective-projection/",
+      "article": "https://leventbulut.com/what-is-objective-projection/",
       "repository": "https://github.com/levent-bulut/objective-projection",
-      "article": "https://leventbulut.com/what-is-objective-projection/"
+      "doi": "10.5281/zenodo.18478353"
     },
     {
       "id": "narrative-entropy",
-      "title": "Narrative Entropy"
+      "title": "Narrative Entropy (Sn)",
+      "alternateName": "Anlatı Entropisi",
+      "type": "Metric",
+      "page": "https://levent-bulut.github.io/bulut-research/framework/narrative-entropy/",
+      "article": "https://leventbulut.com/corpus/",
+      "doi": "10.5281/zenodo.20459351"
     },
     {
       "id": "information-friction",
-      "title": "Information Friction"
+      "title": "Information Friction",
+      "alternateName": "Bilgi Sürtünmesi",
+      "type": "ScoredDimension",
+      "page": "https://levent-bulut.github.io/bulut-research/framework/information-friction/",
+      "article": "https://leventbulut.com/corpus/",
+      "doi": "10.5281/zenodo.19410663"
     },
     {
       "id": "narrative-gravity",
-      "title": "Narrative Gravity"
+      "title": "Narrative Gravity (Ng)",
+      "alternateName": "Anlatı Kütleçekimi",
+      "type": "Construct",
+      "page": "https://levent-bulut.github.io/bulut-research/framework/narrative-gravity/",
+      "article": "https://leventbulut.com/corpus/",
+      "doi": "10.5281/zenodo.19275490"
     },
     {
       "id": "narrative-inertia",
-      "title": "Narrative Inertia"
+      "title": "Narrative Inertia",
+      "alternateName": "Anlatı Ataleti",
+      "type": "Construct",
+      "page": "https://levent-bulut.github.io/bulut-research/framework/narrative-inertia/",
+      "article": "https://leventbulut.com/corpus/",
+      "doi": "10.5281/zenodo.19458013"
     },
     {
       "id": "summarization-bias",
-      "title": "Summarization Bias"
+      "title": "Summarization Bias",
+      "alternateName": "Özetleme Yanlılığı",
+      "type": "Construct",
+      "page": "https://levent-bulut.github.io/bulut-research/framework/summarization-bias/",
+      "article": "https://leventbulut.com/corpus/",
+      "doi": "10.5281/zenodo.20090216"
     }
   ]
 }
