@@ -1,21 +1,67 @@
 {
-  "name": "Levent Bulut Research",
-  "short_name": "LB Research",
+  "name": "Levent Bulut Research — Open Research Platform",
+  "short_name": "Bulut Research",
+  "description": "Open research portal for the Bulut Doctrine: Narrative Engineering, Objective Projection, and computational narratology by Levent Bulut. Frameworks, publications, datasets and machine-readable knowledge resources.",
+  "id": "/bulut-research/",
   "start_url": "/bulut-research/",
+  "scope": "/bulut-research/",
   "display": "standalone",
+  "orientation": "any",
   "background_color": "#101418",
   "theme_color": "#101418",
-  "description": "Open research platform for Narrative Engineering and computational narratology.",
+  "lang": "en",
+  "dir": "ltr",
+  "categories": ["education", "books", "news", "productivity"],
   "icons": [
     {
       "src": "icons/icon-192.png",
       "sizes": "192x192",
-      "type": "image/png"
+      "type": "image/png",
+      "purpose": "any"
     },
     {
       "src": "icons/icon-512.png",
       "sizes": "512x512",
-      "type": "image/png"
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Research Programs",
+      "short_name": "Research",
+      "description": "The three research programs of the Bulut Doctrine",
+      "url": "/bulut-research/research/"
+    },
+    {
+      "name": "Publications",
+      "short_name": "Papers",
+      "description": "All 46 DOI-registered works, chronological",
+      "url": "/bulut-research/publications/"
+    },
+    {
+      "name": "Datasets",
+      "short_name": "Data",
+      "description": "The Objective Projection Dataset and research corpus",
+      "url": "/bulut-research/datasets/"
+    },
+    {
+      "name": "Citation",
+      "short_name": "Cite",
+      "description": "APA and BibTeX citation entries",
+      "url": "/bulut-research/citation/"
     }
   ]
 }
