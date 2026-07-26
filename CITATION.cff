@@ -1,0 +1,9 @@
+cff-version: 1.2.0
+title: "Levent Bulut Research"
+message: "If you use this repository, please cite it."
+authors:
+  - family-names: "Bulut"
+    given-names: "Levent"
+repository-code: "https://github.com/levent-bulut/bulut-research"
+url: "https://leventbulut.com"
+license: MIT
