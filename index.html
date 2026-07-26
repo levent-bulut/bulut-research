@@ -26,19 +26,42 @@
 <script type="application/ld+json">
 {
 "@context":"https://schema.org",
-"@type":"ResearchProject",
+"@graph":[
+{
+"@type":"WebSite",
+"@id":"https://levent-bulut.github.io/bulut-research/#website",
 "name":"Levent Bulut Research",
 "url":"https://levent-bulut.github.io/bulut-research/",
 "description":"Open research platform for Narrative Engineering and computational narratology.",
-"creator":{
-"@type":"Person",
-"name":"Levent Bulut",
-"url":"https://leventbulut.com/about/"
+"inLanguage":"en",
+"author":{"@id":"https://orcid.org/0009-0007-7500-2261"}
 },
+{
+"@type":"ResearchProject",
+"@id":"https://leventbulut.com/#bulut-doctrine",
+"name":"The Bulut Doctrine — Objective Projection",
+"url":"https://leventbulut.com",
+"sameAs":["https://levent-bulut.github.io/bulut-research/","https://leventbulut.com/corpus/"],
+"founder":{"@id":"https://orcid.org/0009-0007-7500-2261"}
+},
+{
+"@type":"Person",
+"@id":"https://orcid.org/0009-0007-7500-2261",
+"name":"Levent Bulut",
+"url":"https://leventbulut.com/about/",
+"jobTitle":"Founder of Objective Projection & Narrative Engineering",
+"identifier":{"@type":"PropertyValue","propertyID":"ORCID","value":"0009-0007-7500-2261"},
 "sameAs":[
+"https://orcid.org/0009-0007-7500-2261",
+"https://scholar.google.com/citations?user=2lo1YXcAAAAJ",
+"https://www.researchgate.net/profile/Levent-Bulut-4",
+"https://www.goodreads.com/author/show/16000691.Levent_Bulut",
+"https://huggingface.co/leventbulut",
 "https://github.com/levent-bulut",
-"https://leventbulut.com",
-"https://leventbulut.com/corpus/"
+"https://x.com/LeventBulut",
+"https://leventbuluttr.substack.com/"
+]
+}
 ]
 }
 </script>
@@ -66,17 +89,17 @@ datasets, corpora and knowledge resources.
 </p>
 
 <div class="hero-buttons">
+<a href="research/" class="button">
+Research
+</a>
+<a href="publications/" class="button">
+Publications
+</a>
+<a href="datasets/" class="button">
+Datasets
+</a>
 <a href="https://leventbulut.com" target="_blank" class="button">
 Website
-</a>
-<a href="https://leventbulut.com/corpus/" target="_blank" class="button">
-Corpus
-</a>
-<a href="https://github.com/levent-bulut" target="_blank" class="button">
-GitHub
-</a>
-<a href="https://leventbulut.com/about/" target="_blank" class="button">
-About
 </a>
 </div>
 
@@ -152,6 +175,18 @@ placeholder="Search research...">
 Research Resources
 </h2>
 <div class="resources">
+<a href="research/">
+Research Programs
+</a>
+<a href="publications/">
+Publications (46 DOI)
+</a>
+<a href="datasets/">
+Datasets
+</a>
+<a href="citation/">
+How to Cite
+</a>
 <a href="https://leventbulut.com" target="_blank">
 Official Website
 </a>
@@ -160,9 +195,6 @@ Corpus
 </a>
 <a href="https://github.com/levent-bulut/objective-projection" target="_blank">
 Objective Projection Repository
-</a>
-<a href="https://github.com/levent-bulut/bulut-research" target="_blank">
-Research Portal
 </a>
 <a href="https://leventbulut.com/about/" target="_blank">
 About
@@ -182,6 +214,34 @@ Levent Bulut Research
 Open research platform focused on Narrative Engineering,
 Objective Projection and computational narratology.
 </p>
+</div>
+
+<div>
+<h3>
+Portal
+</h3>
+<ul>
+<li>
+<a href="research/">
+Research
+</a>
+</li>
+<li>
+<a href="publications/">
+Publications
+</a>
+</li>
+<li>
+<a href="datasets/">
+Datasets
+</a>
+</li>
+<li>
+<a href="citation/">
+Citation
+</a>
+</li>
+</ul>
 </div>
 
 <div>
