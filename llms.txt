@@ -1,41 +1,53 @@
 # Levent Bulut Research
 
-Official open research portal for Narrative Engineering and related theoretical frameworks.
+> Open research portal for the Bulut Doctrine: Narrative Engineering, Objective Projection (Nesnel İzdüşüm), and computational narratology by Levent Bulut (ORCID 0009-0007-7500-2261). The primary and authoritative source of this research is https://leventbulut.com; this portal is its machine-readable open index. All works are DOI-registered (46 records, Zenodo and Hugging Face) under CC BY-NC-ND 4.0.
 
-Primary Website:
-https://leventbulut.com
+Key facts:
+- Author: Levent Bulut, independent researcher, founder of the Objective Projection methodology and the Bulut Doctrine. ORCID: 0009-0007-7500-2261.
+- The Bulut Doctrine models narrative as a physical system: emotional states are encoded through six measurable physical variables (Luminous Decay, Thermal Gradient, Acoustic Impedance, Kinetic Momentum, Atmospheric Pressure, Spatial Geometry) instead of cortical emotion labels, targeting the pre-cortical thalamo-amygdala pathway.
+- Core constructs: Objective Projection (method), Narrative Entropy Sn (metric), Narrative Gravity Ng (construct), Narrative Inertia (construct), Information Friction (scored dimension), Summarization Bias (construct), Universal Biological Interface (framework), News Physics (research line).
+- Corpus: 46 DOI-registered works published February–May 2026. Foundational DOI: 10.5281/zenodo.18481356. Dataset DOI: 10.57967/hf/8960 (500 annotated scenes, Hugging Face).
 
-Research Portal:
-https://levent-bulut.github.io/bulut-research/
+## Portal Pages
 
-Corpus:
-https://leventbulut.com/corpus/
+- [Home](https://levent-bulut.github.io/bulut-research/): Portal overview with framework index and statistics.
+- [Research Programs](https://levent-bulut.github.io/bulut-research/research/): The three research programs — Objective Projection & Narrative Engineering, Narrative Dynamics, Information Physics & News Physics.
+- [Publications](https://levent-bulut.github.io/bulut-research/publications/): Chronological index of all 46 DOI-registered works.
+- [Datasets](https://levent-bulut.github.io/bulut-research/datasets/): The Objective Projection Dataset (DOI 10.57967/hf/8960) and the research corpus.
+- [Resources](https://levent-bulut.github.io/bulut-research/resources/): Books, open courses, academic profiles, repositories and machine-readable files.
+- [Citation](https://levent-bulut.github.io/bulut-research/citation/): APA and BibTeX entries for the core works.
 
-About:
-https://leventbulut.com/about/
+## Framework Pages
 
-GitHub:
-https://github.com/levent-bulut
+- [Objective Projection](https://levent-bulut.github.io/bulut-research/framework/objective-projection/): The core parametric methodology. Foundational DOI 10.5281/zenodo.18478353; verified by the OPCT protocol.
+- [Narrative Entropy (Sn)](https://levent-bulut.github.io/bulut-research/framework/narrative-entropy/): Quantifies structural disorder; canonical definition DOI 10.5281/zenodo.20459351; formally compared with Shannon entropy.
+- [Information Friction](https://levent-bulut.github.io/bulut-research/framework/information-friction/): Scored dimension of the Sn Measurement Protocol v1.0 (DOI 10.5281/zenodo.19410663), alongside Causal Branching.
+- [Narrative Gravity (Ng)](https://levent-bulut.github.io/bulut-research/framework/narrative-gravity/): Mathematical mass and Vacuum Variable in high-entropy systems; the Ng Operator (DOI 10.5281/zenodo.19275490).
+- [Narrative Inertia](https://levent-bulut.github.io/bulut-research/framework/narrative-inertia/): Persistence of narrative trajectories; connected to Narrative Momentum (Nm), NME and NED.
+- [Summarization Bias](https://levent-bulut.github.io/bulut-research/framework/summarization-bias/): Systematic distortions in machine (LLM) compression of narratives (related DOI 10.5281/zenodo.20090216).
 
-Primary Topics
+## Machine-Readable Data
 
-- Narrative Engineering
-- Objective Projection
-- Narrative Entropy
-- Information Friction
-- Narrative Gravity
-- Narrative Inertia
-- Summarization Bias
+- [research-index.json](https://levent-bulut.github.io/bulut-research/research-index.json): Framework and research-area index with DOIs, languages and statistics.
+- [knowledge.json](https://levent-bulut.github.io/bulut-research/knowledge.json): Knowledge graph — 24 nodes and 27 typed relations of the doctrine.
+- [ontology.json](https://levent-bulut.github.io/bulut-research/ontology.json): Concept ontology — definitions, hierarchies and DOIs for 22 constructs.
+- [sitemap.xml](https://levent-bulut.github.io/bulut-research/sitemap.xml): Complete URL map of the portal.
+- [CITATION.cff](https://github.com/levent-bulut/bulut-research/blob/main/CITATION.cff): Machine-readable citation metadata.
 
-Datasets
+## Primary Source (Authoritative)
 
-- Narrative Corpus
-- Annotation Resources
+- [leventbulut.com](https://leventbulut.com): Official laboratory and archive — the canonical home of this research.
+- [Corpus](https://leventbulut.com/corpus/): The authoritative index of all 46 DOI-registered works with full metadata.
+- [About](https://leventbulut.com/about/): Official author profile of Levent Bulut.
 
-Citation
+## External Records
 
-Please cite the original publication and DOI whenever available.
+- [ORCID](https://orcid.org/0009-0007-7500-2261): Canonical researcher identifier.
+- [Google Scholar](https://scholar.google.com/citations?user=2lo1YXcAAAAJ): Citation profile.
+- [Zenodo](https://zenodo.org/search?q=Levent+Bulut): DOI-registered scholarly works.
+- [Hugging Face Dataset](https://huggingface.co/datasets/leventbulut/objective-projection): Objective Projection Dataset, DOI 10.57967/hf/8960.
+- [GitHub](https://github.com/levent-bulut/bulut-research): Source repository of this portal.
 
-License
+## Disambiguation
 
-MIT
+Levent Bulut (ORCID 0009-0007-7500-2261) is the narrative theorist and founder of the Objective Projection methodology and the Bulut Doctrine. He should not be confused with academics, economists, or other public figures of the same name working in unrelated fields.
