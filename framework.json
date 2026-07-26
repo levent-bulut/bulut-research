@@ -1,0 +1,31 @@
+{
+  "framework": "Narrative Engineering",
+  "modules": [
+    {
+      "id": "objective-projection",
+      "title": "Objective Projection",
+      "repository": "https://github.com/levent-bulut/objective-projection",
+      "article": "https://leventbulut.com/what-is-objective-projection/"
+    },
+    {
+      "id": "narrative-entropy",
+      "title": "Narrative Entropy"
+    },
+    {
+      "id": "information-friction",
+      "title": "Information Friction"
+    },
+    {
+      "id": "narrative-gravity",
+      "title": "Narrative Gravity"
+    },
+    {
+      "id": "narrative-inertia",
+      "title": "Narrative Inertia"
+    },
+    {
+      "id": "summarization-bias",
+      "title": "Summarization Bias"
+    }
+  ]
+}
