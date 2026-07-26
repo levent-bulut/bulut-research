@@ -1,0 +1,9 @@
+{
+  "required": [
+    "id",
+    "title",
+    "status",
+    "article",
+    "repository"
+  ]
+}
