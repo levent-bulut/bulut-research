@@ -1,14 +1,187 @@
 {
-  "id": "objective-projection",
-  "title": "Objective Projection",
-  "article": "https://leventbulut.com/what-is-objective-projection/",
-  "repository": "https://github.com/levent-bulut/objective-projection",
-  "corpus": "https://leventbulut.com/corpus/",
-  "status": "published",
-  "language": ["tr", "en"],
-  "keywords": [
-    "Objective Projection",
-    "Narrative Engineering",
-    "Computational Narratology"
+  "meta": {
+    "name": "Levent Bulut Research Index",
+    "version": "2.0",
+    "updated": "2026-07-26",
+    "canonical": "https://levent-bulut.github.io/bulut-research/research-index.json",
+    "author": {
+      "name": "Levent Bulut",
+      "orcid": "https://orcid.org/0009-0007-7500-2261",
+      "website": "https://leventbulut.com",
+      "about": "https://leventbulut.com/about/"
+    },
+    "primarySource": "https://leventbulut.com",
+    "corpus": "https://leventbulut.com/corpus/",
+    "license": "https://creativecommons.org/licenses/by-nc-nd/4.0/"
+  },
+  "stats": {
+    "frameworks": 6,
+    "researchItems": 46,
+    "languages": 2,
+    "repositories": 3
+  },
+  "languages": ["tr", "en"],
+  "repositories": [
+    {
+      "name": "bulut-research",
+      "url": "https://github.com/levent-bulut/bulut-research",
+      "description": "Open research portal and machine-readable knowledge hub."
+    },
+    {
+      "name": "objective-projection",
+      "url": "https://github.com/levent-bulut/objective-projection",
+      "description": "Objective Projection methodology repository."
+    },
+    {
+      "name": "objective-projection-dataset",
+      "url": "https://huggingface.co/datasets/leventbulut/objective-projection",
+      "description": "Annotated 500-scene narrative dataset (DOI 10.57967/hf/8960)."
+    }
+  ],
+  "frameworks": [
+    {
+      "id": "objective-projection",
+      "title": "Objective Projection",
+      "alternateName": "Nesnel İzdüşüm",
+      "page": "framework/objective-projection/",
+      "article": "https://leventbulut.com/what-is-objective-projection/",
+      "summary": "The core parametric methodology of the Bulut Doctrine: encoding emotional states through six measurable physical variables (Luminous Decay, Thermal Gradient, Acoustic Impedance, Kinetic Momentum, Atmospheric Pressure, Spatial Geometry) instead of cortical emotion labels, targeting the pre-cortical thalamo-amygdala pathway.",
+      "doi": "10.5281/zenodo.18478353",
+      "status": "published",
+      "language": ["tr", "en"],
+      "program": "Objective Projection & Narrative Engineering",
+      "keywords": ["Objective Projection", "Narrative Engineering", "Physics of Literature", "Universal Biological Interface", "OPCT"]
+    },
+    {
+      "id": "narrative-entropy",
+      "title": "Narrative Entropy (Sn)",
+      "alternateName": "Anlatı Entropisi",
+      "page": "framework/narrative-entropy/",
+      "article": "https://leventbulut.com/corpus/",
+      "summary": "Quantifies structural complexity and disorder within a narrative system via the Sn metric. Formally compared against Shannon entropy (H) and operationalized through the Sn Measurement Protocol v1.0, with a registered two-scene pilot study and canonical definition.",
+      "doi": "10.5281/zenodo.20459351",
+      "status": "published",
+      "language": ["tr", "en"],
+      "program": "Narrative Dynamics",
+      "keywords": ["Narrative Entropy", "Sn metric", "Shannon entropy", "Information theory", "Thermodynamics"]
+    },
+    {
+      "id": "information-friction",
+      "title": "Information Friction",
+      "alternateName": "Bilgi Sürtünmesi",
+      "page": "framework/information-friction/",
+      "article": "https://leventbulut.com/corpus/",
+      "summary": "One of the two scored dimensions of the Sn Measurement Protocol, alongside Causal Branching: operational definitions, numerical scoring standards, and inter-rater reliability procedures quantifying the resistance information encounters within a narrative system.",
+      "doi": "10.5281/zenodo.19410663",
+      "status": "published",
+      "language": ["tr", "en"],
+      "program": "Information Physics & News Physics",
+      "keywords": ["Information Friction", "Causal Branching", "Sn Measurement Protocol", "Scoring standards"]
+    },
+    {
+      "id": "narrative-gravity",
+      "title": "Narrative Gravity (Ng)",
+      "alternateName": "Anlatı Kütleçekimi",
+      "page": "framework/narrative-gravity/",
+      "article": "https://leventbulut.com/corpus/",
+      "summary": "Formalizes the mathematical mass and Vacuum Variable of high-entropy narrative systems as a deterministic break from the MacGuffin. The Ng Operator provides the mathematical formalization and operational definition.",
+      "doi": "10.5281/zenodo.19275490",
+      "status": "published",
+      "language": ["tr", "en"],
+      "program": "Narrative Dynamics",
+      "keywords": ["Narrative Gravity", "Ng Operator", "Vacuum Variable", "MacGuffin", "High-entropy systems"]
+    },
+    {
+      "id": "narrative-inertia",
+      "title": "Narrative Inertia",
+      "alternateName": "Anlatı Ataleti",
+      "page": "framework/narrative-inertia/",
+      "article": "https://leventbulut.com/corpus/",
+      "summary": "The persistence of established narrative trajectories over time: the temporal dimension of the Bulut Doctrine, connected to Narrative Momentum (Nm), Narrative Memory Evolution (NME), and Narrative Ecosystem Dynamics (NED).",
+      "doi": "10.5281/zenodo.19458013",
+      "status": "published",
+      "language": ["tr", "en"],
+      "program": "Narrative Dynamics",
+      "keywords": ["Narrative Inertia", "Narrative Momentum", "Narrative Memory Evolution", "Narrative Ecosystem Dynamics"]
+    },
+    {
+      "id": "summarization-bias",
+      "title": "Summarization Bias",
+      "alternateName": "Özetleme Yanlılığı",
+      "page": "framework/summarization-bias/",
+      "article": "https://leventbulut.com/corpus/",
+      "summary": "Systematic distortions introduced when machine systems, including large language models, compress narrative and journalistic source material into summaries — altering physical matrices and biophysical output in the process.",
+      "doi": "10.5281/zenodo.20090216",
+      "status": "published",
+      "language": ["tr", "en"],
+      "program": "Information Physics & News Physics",
+      "keywords": ["Summarization Bias", "LLM", "Machine compression", "News Physics", "AI narrative analysis"]
+    }
+  ],
+  "research": [
+    {
+      "id": "bulut-doctrine",
+      "title": "The Bulut Doctrine",
+      "url": "https://leventbulut.com/bulut-doctrine-framework/",
+      "summary": "The founding research program modeling narrative as a physical system. Foundational paper: From Correlative to Projection.",
+      "doi": "10.5281/zenodo.18481356",
+      "keywords": ["Bulut Doctrine", "Narrative Engineering", "Physics of Literature"]
+    },
+    {
+      "id": "physics-of-literature",
+      "title": "Physics of Literature",
+      "url": "https://leventbulut.com/corpus/",
+      "summary": "Master research line applying physical variables to literary systems. Master Paper on Narrative Engineering (V3.0) and case studies from Werther to The Stranger and Pulp Fiction.",
+      "doi": "10.5281/zenodo.18715305",
+      "keywords": ["Physics of Literature", "Luminous Decay", "Thermodynamics", "Case studies"]
+    },
+    {
+      "id": "universal-biological-interface",
+      "title": "Universal Biological Interface (UBI)",
+      "url": "https://leventbulut.com/corpus/",
+      "summary": "A post-digital protocol for algorithmic literature: the Two-Pathway Architecture and why cultural variation does not falsify the UBI.",
+      "doi": "10.5281/zenodo.18907915",
+      "keywords": ["Universal Biological Interface", "Two-Pathway Architecture", "Algorithmic literature"]
+    },
+    {
+      "id": "opct",
+      "title": "Objective Projection Calibration Test (OPCT)",
+      "url": "https://leventbulut.com/corpus/",
+      "summary": "Neurobiological and methodological framework for empirical verification of physics-based narrative construction (v1.0 and v2.0), with an open call for independent researchers.",
+      "doi": "10.5281/zenodo.19073747",
+      "keywords": ["OPCT", "Calibration", "Empirical verification", "Psychophysiology"]
+    },
+    {
+      "id": "news-physics",
+      "title": "News Physics",
+      "url": "https://leventbulut.com/corpus/",
+      "summary": "A physical model of journalism practice: founding manifesto v1.0 and the case-analysis scoring rubric.",
+      "doi": "10.5281/zenodo.19545072",
+      "keywords": ["News Physics", "Journalism", "Scoring rubric", "Media analysis"]
+    },
+    {
+      "id": "objective-projection-dataset",
+      "title": "Objective Projection Dataset",
+      "url": "https://huggingface.co/datasets/leventbulut/objective-projection",
+      "summary": "Annotated dataset of 500 narrative scenes labelled for the six golden rules of Objective Projection, with a rule-based bilingual detection pipeline and hard-negative examples.",
+      "doi": "10.57967/hf/8960",
+      "keywords": ["Dataset", "Hugging Face", "Annotation", "Bilingual pipeline"]
+    },
+    {
+      "id": "reader-process-layer",
+      "title": "Reader Process Layer",
+      "url": "https://leventbulut.com/corpus/",
+      "summary": "Extending Objective Projection beyond biophysical output: Reader-State Interaction (RSI), Narrative Memory Evolution (NME), and Narrative Ecosystem Dynamics (NED).",
+      "doi": "10.5281/zenodo.19457563",
+      "keywords": ["Reader Process Layer", "RSI", "NME", "NED"]
+    },
+    {
+      "id": "full-corpus",
+      "title": "Full DOI Corpus (46 works)",
+      "url": "https://leventbulut.com/corpus/",
+      "summary": "The complete academic record: 46 DOI-registered scholarly works and the research dataset, indexed on leventbulut.com/corpus.",
+      "doi": "10.5281/zenodo.19511369",
+      "keywords": ["Corpus", "DOI", "Zenodo", "Citation Hub"]
+    }
   ]
 }
