@@ -1,7 +1,77 @@
-User-agent: *
+# robots.txt — Levent Bulut Research
+# https://levent-bulut.github.io/bulut-research/
+# Open research portal: all crawlers welcome, including AI/LLM crawlers.
 
+User-agent: *
+Allow: /
+
+# Search engine crawlers
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: Yandex
+Allow: /
+
+User-agent: DuckDuckBot
+Allow: /
+
+# AI / LLM crawlers — explicitly welcome
+User-agent: GPTBot
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Claude-Web
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Perplexity-User
+Allow: /
+
+User-agent: cohere-ai
+Allow: /
+
+User-agent: Meta-ExternalAgent
+Allow: /
+
+User-agent: Applebot
+Allow: /
+
+User-agent: Applebot-Extended
+Allow: /
+
+User-agent: Amazonbot
+Allow: /
+
+User-agent: Bytespider
+Allow: /
+
+# Archive & research crawlers
+User-agent: ia_archiver
+Allow: /
+
+User-agent: CCBot
+Allow: /
+
+User-agent: SemanticScholarBot
 Allow: /
 
 Sitemap: https://levent-bulut.github.io/bulut-research/sitemap.xml
-
-Host: levent-bulut.github.io
