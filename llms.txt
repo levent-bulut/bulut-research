@@ -1,0 +1,41 @@
+# Levent Bulut Research
+
+Official open research portal for Narrative Engineering and related theoretical frameworks.
+
+Primary Website:
+https://leventbulut.com
+
+Research Portal:
+https://levent-bulut.github.io/bulut-research/
+
+Corpus:
+https://leventbulut.com/corpus/
+
+About:
+https://leventbulut.com/about/
+
+GitHub:
+https://github.com/levent-bulut
+
+Primary Topics
+
+- Narrative Engineering
+- Objective Projection
+- Narrative Entropy
+- Information Friction
+- Narrative Gravity
+- Narrative Inertia
+- Summarization Bias
+
+Datasets
+
+- Narrative Corpus
+- Annotation Resources
+
+Citation
+
+Please cite the original publication and DOI whenever available.
+
+License
+
+MIT
