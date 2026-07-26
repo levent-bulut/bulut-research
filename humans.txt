@@ -1,0 +1,23 @@
+Levent Bulut
+Researcher
+
+Website:
+https://leventbulut.com
+
+Corpus:
+https://leventbulut.com/corpus/
+
+GitHub:
+https://github.com/levent-bulut
+
+Project
+
+Levent Bulut Research
+
+Technologies
+
+HTML
+CSS
+JavaScript
+GitHub Pages
+JSON-LD
