@@ -1,23 +1,78 @@
-Levent Bulut
-Researcher
+/* TEAM */
 
-Website:
-https://leventbulut.com
+    Founder & Researcher: Levent Bulut
+    Role: Independent researcher, founder of the Objective Projection
+          methodology and the Bulut Doctrine
+    ORCID: 0009-0007-7500-2261
+    Site: https://leventbulut.com
+    Profile: https://leventbulut.com/about/
+    Contact: levent [at] leventbulut.com
+    From: Turkey
 
-Corpus:
-https://leventbulut.com/corpus/
 
-GitHub:
-https://github.com/levent-bulut
+/* THANKS */
 
-Project
+    Zenodo — persistent DOI registration for 45 scholarly works
+    Hugging Face — hosting of the Objective Projection Dataset
+    ORCID — researcher identity infrastructure
+    GitHub Pages — static hosting of this portal
+    Every independent researcher who has taken up the OPCT v2.0 call
 
-Levent Bulut Research
 
-Technologies
+/* SITE */
 
-HTML
-CSS
-JavaScript
-GitHub Pages
-JSON-LD
+    Standards: HTML5, CSS3, Vanilla JavaScript, JSON-LD, Schema.org
+    Components: None. No framework, no build step, no dependencies.
+    Software: Plain text editor, Git
+    Hosting: GitHub Pages
+    Primary source: https://leventbulut.com
+    Portal: https://levent-bulut.github.io/bulut-research/
+    Repository: https://github.com/levent-bulut/bulut-research
+    Language: English, Türkçe
+    Doctype: HTML5
+    IDE: Any
+
+
+/* RESEARCH */
+
+    Program: The Bulut Doctrine — Objective Projection (Nesnel İzdüşüm)
+    Field: Narrative Engineering, computational narratology,
+           physics of literature, news physics
+
+    Frameworks documented on this portal:
+      Objective Projection      DOI 10.5281/zenodo.18478353
+      Narrative Entropy (Sn)    DOI 10.5281/zenodo.20459351
+      Narrative Gravity (Ng)    DOI 10.5281/zenodo.19275490
+      Narrative Inertia         DOI 10.5281/zenodo.19458013
+      Information Friction      DOI 10.5281/zenodo.19410663
+      Summarization Bias        DOI 10.5281/zenodo.20090216
+
+    Foundational paper: DOI 10.5281/zenodo.18481356
+    Dataset: DOI 10.57967/hf/8960 — 500 annotated narrative scenes
+    Full corpus: https://leventbulut.com/corpus/ — 46 DOI records
+
+
+/* MACHINE-READABLE */
+
+    /llms.txt              Crawler guide for large language models
+    /research-index.json   Framework and research-area index
+    /knowledge.json        Knowledge graph — 24 nodes, 27 relations
+    /ontology.json         Concept ontology — 22 constructs
+    /sitemap.xml           Complete URL map
+    /CITATION.cff          Citation metadata
+
+
+/* LICENSE */
+
+    Source code: MIT
+    Research content: CC BY-NC-ND 4.0
+    https://creativecommons.org/licenses/by-nc-nd/4.0/
+
+
+/* NOTE */
+
+    "Truth has an objective projection; we are merely the narrative
+     engineers who trace it."
+                                                    — Levent Bulut
+
+    Last updated: 2026-07-26
