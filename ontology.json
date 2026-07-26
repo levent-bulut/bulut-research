@@ -1,0 +1,10 @@
+{
+  "Objective Projection": {
+    "type": "Method",
+    "partOf": "Narrative Engineering",
+    "relatedTo": [
+      "Information Friction",
+      "Narrative Entropy"
+    ]
+  }
+}
