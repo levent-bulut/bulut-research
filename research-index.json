@@ -1,0 +1,14 @@
+{
+  "id": "objective-projection",
+  "title": "Objective Projection",
+  "article": "https://leventbulut.com/what-is-objective-projection/",
+  "repository": "https://github.com/levent-bulut/objective-projection",
+  "corpus": "https://leventbulut.com/corpus/",
+  "status": "published",
+  "language": ["tr", "en"],
+  "keywords": [
+    "Objective Projection",
+    "Narrative Engineering",
+    "Computational Narratology"
+  ]
+}
